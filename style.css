@@ -1,3 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
 body{
     background: rgb(174, 213, 253);
+    text-align: center;
 }
+
+.h1{
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 70px;
+}
+
+.p1 {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 40px;
+    margin-top: 20px;
+    
+}
+
+#quiz {
+    width: 320px;
+    height: 250px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #d3aaffd0;
+    border-radius: 365px;
+    
+    
+    
+}
+
+#quizHeader{
+    text-align: center;
+    color: #000000;
+    margin-top: 90px;
+    margin-bottom: 0px;
+  }
+
+  .quizPar1{
+    text-align: center;
+    color: #000000;
+    margin-top: 0px;
+    font-size: 25px;
+    
+  }
+
+  .quizPar{
+    text-align: center;
+    color: #000000;
+    font-size: 10px;
+    
+  }
+
+  #question{
+    margin-top:70px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+
+  
+
+  #pic1{
+    max-width: 150px;
+   transition: transform 0.3s;
+  }
+
+  #pic1:hover{
+    transform: scale(2);
+  }
+
+  #pic2{
+    max-width: 75px;
+    transition: transform 0.3s;
+  }
+  #pic2:hover{
+    
+    transform: scale(2);
+  }
+  #pic3{
+    max-width: 100px;
+    transition: transform 0.3s;
+  }
+
+  #pic3:hover{
+    
+    transform: scale(2);
+  }
+  #pic4{
+    max-width: 100px;
+    transition: transform 0.3s;
+  }
+  #pic4:hover{
+    
+    transform: scale(2);
+  }
+
+  #yesBtn{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(120, 221, 126);
+    margin-right: 300px;
+    margin-left: 400px;
+    padding: 15px 40px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  #noBtn{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(212, 61, 99);
+    margin-left: 300px;
+    padding: 15px 40px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  #buttonContainer {
+  display: flex;          /* align children horizontally */
+  gap: 20px;              /* space between Yes and GIF */
+  align-items: center;    /* vertically center */
+}
+
+.gallery {
+      display: flex;
+       justify-content: center; /* ← centers images horizontally */
+  align-items: center;    
+      flex-wrap: wrap;       /* allow wrapping to next row */
+      gap: 10px;             /* space between photos */
+    }
+    .gallery img {
+    max-width: 200px;
+  max-height: 200px;
+      width: auto;          /* fixed width */
+      height: auto;          /* maintain aspect ratio */
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(2); /* slight zoom on hover */
+    }
